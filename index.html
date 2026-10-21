@@ -238,6 +238,7 @@
   .proj-tags span{font-size:11.5px;color:var(--text-dim);border:1px solid var(--border-soft);padding:3px 8px;border-radius:2px;font-family:'JetBrains Mono',monospace;}
   .proj-link{font-size:13px;color:var(--text);text-decoration:none;border-bottom:1px solid var(--text-dim);white-space:nowrap;}
   .proj-link:hover{border-color:var(--accent);color:var(--accent);}
+  .proj-note{font-size:12.5px;color:var(--text-dim);font-family:'JetBrains Mono',monospace;}
 
   /* certifications */
   .cert-list{border:1px solid var(--border-soft);border-radius:var(--radius);overflow:hidden;}
@@ -402,15 +403,37 @@
     <div class="timeline">
       <div class="tl-item">
         <div class="tl-head">
-          <span class="tl-role">Assistant Accountant / IT Support</span>
-          <span class="tl-dates mono">Dec 2024 — Present</span>
+          <span class="tl-role">Freelance Full‑Stack Developer</span>
+          <span class="tl-dates mono">2024 — Present</span>
         </div>
-        <div class="tl-meta">PT. Eriadi Fatkhur Rokhman · Pekanbaru, Riau</div>
+        <div class="tl-meta">Independent · Pekanbaru, Riau</div>
         <ul>
-          <li>Support accounting workflows, including drafting SOPs and SPs for a city‑level government project</li>
-          <li>Build and maintain company websites</li>
+          <li>Build, deploy, and maintain client web systems end to end, including hosting and custom domain setup, a production online store (Dragon Store), and an online store for a village‑owned enterprise (BUMDes Langgam Sako)</li>
+          <li>Integrate REST APIs between frontend and backend services; debug and fix production issues</li>
+          <li>Apply rate limiting, webhook signature verification, upload validation, server‑side sessions, and automated tests</li>
+        </ul>
+      </div>
+      <div class="tl-item">
+        <div class="tl-head">
+          <span class="tl-role">Machine Learning Research Assistant</span>
+          <span class="tl-dates mono">2026</span>
+        </div>
+        <div class="tl-meta">Universitas Riau</div>
+        <ul>
+          <li>Supported doctoral research on forest‑fire hazard prediction: compared XGBoost and neural‑network classifiers and built LSTM models in Python, reaching 90%+ accuracy on benchmark datasets</li>
+        </ul>
+      </div>
+      <div class="tl-item">
+        <div class="tl-head">
+          <span class="tl-role">Assistant Accountant / IT Support</span>
+          <span class="tl-dates mono">Dec 2024 — 2026</span>
+        </div>
+        <div class="tl-meta">PT. Eriadi Fatkhur Rokhman · Pekanbaru, Riau · Project‑based / on call</div>
+        <ul>
+          <li>Supported accounting workflows, including drafting SOPs and SPs for a city‑level government project</li>
+          <li>Built and maintained company websites</li>
           <li>Conducted security assessments on internal web applications, identifying and documenting 10+ vulnerabilities aligned with OWASP Top 10 standards</li>
-          <li>Serve in a company secretary capacity</li>
+          <li>Served in a company secretary capacity</li>
         </ul>
       </div>
       <div class="tl-item">
@@ -431,16 +454,6 @@
         <div class="tl-meta">Infinite Learning Indonesia (MSIB Kampus Merdeka) · Batam</div>
         <ul>
           <li>Certified independent study program on Red Hat Certified System Administrator, IBM AI &amp; Cybersecurity</li>
-        </ul>
-      </div>
-      <div class="tl-item">
-        <div class="tl-head">
-          <span class="tl-role">Machine Learning Research Assistant</span>
-          <span class="tl-dates mono">Jan 2023 — Jan 2024</span>
-        </div>
-        <div class="tl-meta">Universitas Riau</div>
-        <ul>
-          <li>Designed and trained classification models in Python (Scikit‑Learn, Pandas), achieving 90%+ accuracy on benchmark datasets</li>
         </ul>
       </div>
     </div>
@@ -470,18 +483,26 @@
         <span class="tag">XGBoost</span>
         <span class="tag">Pandas</span>
         <span class="tag">Explainable AI (SHAP)</span>
-        <span class="tag">Artificial Intelligence</span>
+        <span class="tag">PyTorch</span>
+        <span class="tag">TensorFlow / Keras</span>
       </div>
     </div>
     <div class="skill-group">
-      <h3>Web Development</h3>
+      <h3>Web &amp; Backend</h3>
       <div class="tag-row">
+        <span class="tag">Node.js</span>
+        <span class="tag">Express</span>
+        <span class="tag">Hono</span>
         <span class="tag">PHP</span>
-        <span class="tag">CMS Development</span>
-        <span class="tag">API Integration</span>
+        <span class="tag">REST API Design</span>
+        <span class="tag">MySQL / SQL</span>
+        <span class="tag">Cloudflare D1</span>
+        <span class="tag">Webhooks</span>
+        <span class="tag">Automated Testing</span>
+        <span class="tag">Git / GitHub</span>
+        <span class="tag">React</span>
         <span class="tag">WordPress</span>
         <span class="tag">WooCommerce</span>
-        <span class="tag">Web Application Development</span>
       </div>
     </div>
   </section>
@@ -498,7 +519,7 @@
         <div class="proj-content">
         <div class="proj-role">Machine Learning Researcher — First Author</div>
         <h3>Explainable Machine Learning for DDoS Attack Detection with Physical Network Validation</h3>
-        <p>XGBoost vs Random Forest for DDoS detection, benchmarked on CIC‑DDoS2019 and validated with a live IDS prototype on a physical network. SHAP explains the predictions, and physical testing exposed a measurable false‑positive gap that offline accuracy (99.9%+) hid.</p>
+        <p>XGBoost vs Random Forest for DDoS detection, benchmarked on CIC‑DDoS2019 (XGBoost reached 99.99% accuracy, about 1.8M flows/second inference) and validated with a real‑time IDS prototype on a physical network. SHAP explains the predictions, and physical testing exposed a measurable false‑positive gap that offline accuracy hid.</p>
         <div class="proj-foot">
           <div class="proj-tags">
             <span>Machine Learning</span><span>Explainable AI</span><span>XGBoost</span><span>Python</span>
@@ -513,7 +534,7 @@
         <div class="proj-content">
         <div class="proj-role">Web Developer — E-commerce</div>
         <h3>Dragon Store — Game Top‑Up &amp; Character Store Website</h3>
-        <p>Game top‑up store on Cloudflare Workers and D1 with member wallets, flash sales, Google login, an admin panel, and payment gateways (Tripay, Duitku). Orders are fulfilled automatically through the Digiflazz API.</p>
+        <p>Live in production for a client with real transactions. Ported a PHP/MySQL store to Cloudflare Workers and D1, with member wallets, VIP/reseller tiers, flash sales, Google login, an admin panel, and payment gateways (Tripay, Duitku). Orders are fulfilled automatically through the Digiflazz API. Fixed a stock concurrency bug with atomic per‑row claiming, and secured it with rate limiting, Cloudflare Turnstile, webhook signature verification, and automated tests.</p>
         <div class="proj-foot">
           <div class="proj-tags">
             <span>Web Development</span><span>Payment Integration</span><span>Cloudflare Workers</span><span>JavaScript</span>
@@ -560,14 +581,14 @@
       <div class="proj-card">
         <div class="proj-thumb"><img src="assets/bumdes.webp" alt="BUMDes Langgam Sako online store — batik and tenun products" loading="lazy"></div>
         <div class="proj-content">
-        <div class="proj-role">Full‑Stack Developer</div>
+        <div class="proj-role">Full‑Stack Developer — Freelance</div>
         <h3>BUMDes Langgam Sako — Batik E‑commerce Website</h3>
-        <p>Company‑profile and online store for a village‑owned batik enterprise in Bengkalis, built on WordPress and WooCommerce with direct WhatsApp ordering, a gallery and a news section.</p>
+        <p>Company‑profile and online store for a village‑owned batik enterprise in Bengkalis, built on WordPress and WooCommerce with direct WhatsApp ordering, a gallery and a news section. The site was live for 3 years, including hosting and custom domain setup.</p>
         <div class="proj-foot">
           <div class="proj-tags">
             <span>WordPress</span><span>WooCommerce</span><span>Web Development</span>
           </div>
-          <a class="proj-link" href="https://bumdeslanggamsako.com" target="_blank" rel="noopener">bumdeslanggamsako.com</a>
+          <span class="proj-note">Hosting and domain have since expired</span>
         </div>
         </div>
       </div>
@@ -586,7 +607,8 @@
       <div class="cert-row"><span class="cert-name">Building Trustworthy AI Enterprise Solution <span class="cert-issuer">IBM</span></span><span></span><span class="cert-date">Jan 2024</span></div>
       <div class="cert-row"><span class="cert-name">Red Hat Certified System Administrator <span class="cert-issuer">Red Hat</span></span><span></span><span class="cert-date">Dec 2023</span></div>
       <details class="cert-more">
-        <summary>Show 6 more</summary>
+        <summary>Show 7 more</summary>
+      <div class="cert-row"><span class="cert-name">TOEFL Prediction, score 563</span><span></span><span class="cert-date">2026</span></div>
       <div class="cert-row"><span class="cert-name">Peserta Webinar Cyber Security <span class="cert-issuer">Universitas Jember</span></span><span></span><span class="cert-date">Oct 2024</span></div>
       <div class="cert-row"><span class="cert-name">Enterprise Security in Practice <span class="cert-issuer">IBM</span></span><span></span><span class="cert-date">Jan 2024</span></div>
       <div class="cert-row"><span class="cert-name">Getting Started with Enterprise‑grade AI <span class="cert-issuer">IBM</span></span><span></span><span class="cert-date">Jan 2024</span></div>
