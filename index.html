@@ -135,6 +135,9 @@
     padding:6px 14px 6px 12px;border:1px solid var(--border);border-radius:999px;
     background:rgba(23,27,32,.7);
   }
+  .now-line{font-size:13px;color:var(--text-dim);margin:-8px 0 22px 4px;}
+  .now-line a{color:var(--text-muted);text-decoration:underline;text-decoration-color:rgba(154,163,175,.4);text-underline-offset:3px;transition:color .15s;}
+  .now-line a:hover{color:var(--text);}
   .dot{width:7px;height:7px;border-radius:50%;background:var(--status);position:relative;flex:none;}
   .dot::after{
     content:'';position:absolute;inset:-4px;border-radius:50%;
@@ -367,6 +370,7 @@
     <div class="hero-grid">
       <div>
         <div class="status-line"><span class="dot"></span>Open to work — full‑time or freelance</div>
+        <p class="now-line">Currently working on <a href="https://xyzstore.azmcode.workers.dev" target="_blank" rel="noopener" aria-label="XYZ Gaming Store, opens in a new tab">XYZ Gaming Store &rarr;</a></p>
         <h1>Azzam Anshori<br><span>Full‑Stack Developer</span></h1>
         <p class="lede">Full‑stack development, APIs and automation, applied machine learning, and cybersecurity — based in Pekanbaru, Indonesia, open to relocating to Jakarta. Client web projects run through my studio, <a href="https://azmcode.vercel.app/" target="_blank" rel="noopener">azmcode</a>.</p>
         <div class="cta-row">
